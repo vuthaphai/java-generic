@@ -35,9 +35,12 @@ public class GenericsWildcard {
     public static void display(List<?> list){
         for (int i = 0; i < list.size(); i++) {
             System.out.println(list.get(i));
+            System.out.println("hello");
         }
     }
 
-    static class Vutha<T>{}
+    static class Vutha<T>{
+
+    }
 
 }
