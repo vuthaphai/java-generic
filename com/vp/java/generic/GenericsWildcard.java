@@ -15,7 +15,7 @@ public class GenericsWildcard {
 //    instantiating a generic class
 
     public static void main(String[] args) {
-        List<String> list = List.of("Vutha", "VanchanBoramey");
+        List<String> list = List.of("Vutha", "VanchanBormey");
         display(list);
 
         //Local variable
